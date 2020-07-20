@@ -29,10 +29,10 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'retrovalleyapp.apps.RetrovalleyappConfig',
     'rest_framework',
+    'frontend',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
